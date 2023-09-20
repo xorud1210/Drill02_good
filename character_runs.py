@@ -15,7 +15,7 @@ def render_all(x, y):
     delay(0.01)
 
 def run_circle():
-    cx, cy, r = 800 / 2, 600 / 2, 200
+    cx, cy, r = 800 / 2, 600 / 2, 210
     for deg in range(270, 360 + 270, 5):
         x = cx + r * math.cos(deg / 360 * 2 * math.pi)
         y = cy + r * math.sin(deg / 360 * 2 * math.pi)
